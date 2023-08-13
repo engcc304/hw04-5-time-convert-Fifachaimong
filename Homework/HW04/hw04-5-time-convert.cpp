@@ -13,3 +13,12 @@
     Output:
         27 days = 2332800 seconds
 */
+#include<stdio.h>
+int main(){
+    int i;
+    printf("Test case:\n");
+    printf("Input Day:\n");
+    scanf("%d",&i);
+    printf("Output:\n%d days = %d seconds",i ,i * 24 * 60 * 60);
+    return 0;
+}
